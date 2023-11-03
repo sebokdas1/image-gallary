@@ -4,4 +4,13 @@
 
 body {
   background: #ebeff5;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  body {
+    max-width: 100%;
+    padding: 0;
+  }
 }
